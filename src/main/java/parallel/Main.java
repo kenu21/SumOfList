@@ -9,7 +9,7 @@ import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.Future;
 
 public class Main {
-    private static final int SIZE_LIST = 1000000;
+    private static final int SIZE_LIST = 1_000_000;
 
     public static void main(String[] args) throws ExecutionException, InterruptedException {
         List<Integer> list = new ArrayList<>(SIZE_LIST);
